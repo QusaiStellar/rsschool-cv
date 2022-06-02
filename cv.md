@@ -33,8 +33,10 @@ export default NotFound;
 ## Experience
 ***
 Worked as a design engineer in:
-__2018-2020 (2 years)__ 
+
+__2018-2020 (2 years)__  
 Minsk Automobile Plant
+
 __2020-to present (2 years)__  
 Minsk Motor Plant 
 
