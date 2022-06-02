@@ -10,9 +10,11 @@ _**A future graduate of RS school!**_
 - CSS, Sass, HTML;
 - JS;
 - React, Redux;
+
 ## Code example
 ***
-```js
+
+```javascript
 import React from 'react';
 import styles from './NotFound.module.css';
 
@@ -27,6 +29,7 @@ class NotFound extends React.Component {
 };
 export default NotFound;
 ```
+
 ## Experience
 ***
 Worked as a design engineer in:
@@ -34,15 +37,18 @@ __2018-2020 (2 years)__
 Minsk Automobile Plant
 __2020-to present (2 years)__  
 Minsk Motor Plant 
+
 ## Education
 ***
  __2013-2018 (5 years)__ 
 * Belarusian National Technical University 
   + technological equipment of machine-building production.
+
 ## Languages
 ***
 * Russian
 * English level - A2
+
 ## Contacts
 ***
 * E-mail: omgdobrik@gmail.com
