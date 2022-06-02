@@ -5,20 +5,31 @@
 Fill in later
 ## Skills
 ***
-Fill in later
+- Git;
+- CSS, Sass, HTML;
+- JS;
+- React;
 ## Code example
 ***
 Fill in later
 ## Experience
 ***
-Fill in later
+Worked as a design engineer in:
+__2018-2020 (2 years)__ 
+Minsk Automobile Plant
+__2020-2022 (2 years)__  
+Minsk Motor Plant
 ## Education
 ***
-Fill in later
+ __2013-2018 (5 years)__ 
+* Belarusian National Technical University 
+  + technological equipment of machine-building production.
 ## Languages
 ***
 Fill in later
 ## Contacts
 ***
-* e-mail: omgdobrik@gmail.com
-* tel: +375(33)669-73-24
+* E-mail: omgdobrik@gmail.com
+* Instagram: [@andrew.dobrik](https://www.instagram.com/andrew.dobrik/) 
+* LinkedIn: 
+* GitHub: 
