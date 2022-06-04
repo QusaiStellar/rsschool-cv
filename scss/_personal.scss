@@ -1,0 +1,142 @@
+.personal {
+   height: 100%;
+   width: 100%;
+   position: relative;
+}
+.background__img{
+   position: absolute;
+   width: 500px;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+}
+.content {
+}
+.personal__title {
+   font-family: 'Kaushan Script';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 108.4%;
+   width: 180px;  
+   color: $secondary-color;
+   padding: 100px 0 15px;
+}
+.personal__subtitle {
+   font-family: 'Fredoka One';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   letter-spacing: 0.12em;
+   text-transform: uppercase;
+   font-style: normal;
+   color: $gray-color;
+   padding-bottom: 60px;
+}
+.prsonal__nav {
+   padding-bottom: 80px;
+}
+.personal__items {
+   
+}
+.personal__item {
+   padding-bottom: 16px;
+   
+}
+.personal__link {
+   font-family: 'Fredoka One';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   letter-spacing: 0.12em;
+   text-transform: uppercase;
+   font-style: normal;
+   color: #FFFFFF;
+   &:before {
+      content: '';
+      position: absolute;
+      left: -1px;
+      height: 30px;
+      width: 0px;
+      border-bottom: solid  4px $secondary-color;
+      width: 0;
+      transition: all .2s ease;
+
+   }
+   &:hover:before {
+      width: 50px;
+      transition: all .2s ease;
+
+   }
+}
+.contacts {
+   display: flex;
+   gap: 100px  ;
+   padding-bottom: 20px;
+}
+.block {
+   display: flex;
+   flex-direction: column;
+}
+.block__title {
+   font-size: 9px;
+   line-height: 12px;
+   align-items: center;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: $secondary-color;
+}
+.block__text {
+   align-items: center;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+
+}
+.footer {
+   display: flex;
+   align-items: center;
+   border-top: 1px dashed #393939;
+   padding: 10px 0;
+   font-family: 'Avenir Next';
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+}
+.links {
+   display: flex;
+   flex: 1 1 auto;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+}
+.next__page {
+   flex: 0 0 150px;
+   align-items: flex-end;
+   padding-right: 20px;
+   &:after {
+      content: '';
+      padding-right: 30px;
+      background: url(../assets/svg/arrow-right.svg) no-repeat right;
+      transition: all .2s ease;
+   }
+   &:hover:after {
+      content: '';
+      padding-right: 40px;
+      background: url(../assets/svg/arrow-right.svg) no-repeat right;
+      transition: all .2s ease;
+   }
+   &:hover path {
+      fill: $secondary-color;
+   }
+
+}
+.rslogo {
+   width: 100px;
+}
+.year {
+}
+.git {
+}

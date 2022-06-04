@@ -6,60 +6,53 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/style.css">
-   <link rel="icon" href="assets/favicon.ico">
+   <link rel="icon" href="assets/logo.ico">
    <title>CV</title>
 </head>
 
 <body>
-
-   <header class="container header">
-      <img src="assets/img/logo.png" alt="logo" class="header__logo">
-      <nav class="header__navigation">
-         <ul class="navigation__items">
-            <li><a class="naigation__item">About</a></li>
-            <li><a class="naigation__item">Skills</a></li>
-            <li><a class="naigation__item">Code example</a></li>
-            <li><a class="naigation__item">Experience</a></li>
-            <li><a class="naigation__item">Education</a></li>
-            <li><a class="naigation__item">Languages</a></li>
-            <li><a class="naigation__item">Contacts</a></li>
-         </ul>
-      </nav>
-   </header>
-
-   <main class="container">
-      <section class="main">
-         <aside class="hero">
-            <img src="assets/img/photo.jpg" alt="photo" class="hero__img">
-            <section class="hero__contacts">
-               <h2 class="subtitle hero__subtitle">Contacts</h2>
-               <ul class="contacts__items">
-                  <li><a class="contacts__item">omgdobrik@gmail.com</a></li>
-                  <li><a class="contacts__item">Andrei Dabrynski (@QusaiStellar)</a></li>
-                  <li><a class="contacts__item">@andrew.dobrik</a></li>
-                  <li><a class="contacts__item">QusaiStellar</a></li>
+   <div class="container">
+      <main class="wrapper personal">
+         <img src="assets/img/bg.png" alt="background photo" class="background__img">
+         <section class="content">
+            <h1 class="personal__title">Andrei Dabrynski</h1>
+            <h2 class="personal__subtitle">Junior FrontEnd Dev</h2>
+            <nav class="prsonal__nav">
+               <ul class="personal__items">
+                  <li class="personal__item"><a href="#" class="personal__link">About</a></li>
+                  <li class="personal__item"><a href="#" class="personal__link">Experience</a></li>
+                  <li class="personal__item"><a href="#" class="personal__link">Education</a></li>
+                  <li class="personal__item"><a href="#" class="personal__link">Skills</a></li>
+                  <li class="personal__item"><a href="#" class="personal__link">Code example</a></li>
+                  <li class="personal__item"><a href="#" class="personal__link">Languages</a></li>
                </ul>
-            </section>
-            <section class="hero__skills">
-               <h2 class="subtitle hero__subtitle">Skills</h2>
-               <ul class="skills__items">
-                  <li><a class="skills__item">omgdobrik@gmail.com</a></li>
-                  <li><a class="skills__item">Andrei Dabrynski (@QusaiStellar)</a></li>
-                  <li><a class="skills__item">@andrew.dobrik</a></li>
-                  <li><a class="skills__item">QusaiStellar</a></li>
-               </ul>
-            </section>
-         </aside>
-         <section class=" info">
-            info
+            </nav>
+            <div class="contacts">
+               <section class="block">
+                  <p class="block__title">Email</p>
+                  <p class="block__text">omgdobrik@gmail.com</p>
+               </section>
+               <section class="block">
+                  <p class="block__title">Discord</p>
+                  <p class="block__text">@Dalek#7384</p>
+               </section>
+               <section class="block">
+                  <p class="block__title">Instagram</p>
+                  <p class="block__text">@andrew.dobrik</p>
+               </section>
+            </div>
+
          </section>
-      </section>
-      <footer class="footer">
-         footer
-      </footer>
-   </main>
-
-
+         <footer class="footer">
+            <section class="links">
+               <img src="./assets/svg/RSschool.svg" alt="RSschool logo" class="rslogo">
+               <p class="year">2022</p>
+               <p class="git">QusaiStellar</p>
+            </section>
+            <p class="next__page"><a>Next page</a></p>
+         </footer>
+      </main>
+   </div>
 </body>
 
 </html>
