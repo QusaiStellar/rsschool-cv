@@ -197,6 +197,20 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transform: all 0.2s ease;
+          transform: all 0.2s ease;
+}
+
+.block:hover .block__title {
+  color: #FFFFFF;
+  -webkit-transform: all 0.2s ease;
+          transform: all 0.2s ease;
+}
+
+.block:hover .block__text {
+  color: #FFEA00;
+  -webkit-transform: all 0.2s ease;
+          transform: all 0.2s ease;
 }
 
 .block__title {
@@ -208,6 +222,8 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #FFEA00;
+  -webkit-transform: all 0.2 ease;
+          transform: all 0.2 ease;
 }
 
 .block__text {
@@ -218,6 +234,8 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+  -webkit-transform: all 0.2 ease;
+          transform: all 0.2 ease;
 }
 
 .footer {
@@ -284,4 +302,8 @@ body {
 
 .rslogo {
   width: 100px;
+}
+
+.git:hover {
+  color: #FFEA00;
 }

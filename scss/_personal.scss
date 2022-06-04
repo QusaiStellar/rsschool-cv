@@ -77,6 +77,18 @@
 .block {
    display: flex;
    flex-direction: column;
+   transform: all 0.2s ease;
+
+   &:hover {
+      .block__title {
+         color: #FFFFFF;
+         transform: all 0.2s ease;
+      } 
+      .block__text {
+         color: $secondary-color;
+         transform: all 0.2s ease;  
+      }
+   }
 }
 .block__title {
    font-size: 9px;
@@ -85,6 +97,8 @@
    letter-spacing: 0.1em;
    text-transform: uppercase;
    color: $secondary-color;
+   transform: all 0.2 ease;
+   
 }
 .block__text {
    align-items: center;
@@ -92,7 +106,8 @@
    line-height: 16px;
    letter-spacing: 0.03em;
    color: #FFFFFF;
-
+   transform: all 0.2 ease;
+   
 }
 .footer {
    display: flex;
@@ -139,4 +154,7 @@
 .year {
 }
 .git {
+   &:hover {
+      color: $secondary-color;
+   }
 }
