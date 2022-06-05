@@ -105,9 +105,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.personal {
   height: 100%;
   width: 100%;
   position: relative;
@@ -115,7 +112,7 @@ body {
 
 .background__img {
   position: absolute;
-  width: 500px;
+  width: 550px;
   bottom: 0;
   right: 0;
   z-index: -1;
@@ -181,7 +178,7 @@ body {
   transition: all .2s ease;
 }
 
-.contacts {
+.info__blocks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,18 +194,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-transform: all 0.2s ease;
-          transform: all 0.2s ease;
-}
-
-.block:hover .block__title {
-  color: #FFFFFF;
-  -webkit-transform: all 0.2s ease;
-          transform: all 0.2s ease;
-}
-
-.block:hover .block__text {
-  color: #FFEA00;
   -webkit-transform: all 0.2s ease;
           transform: all 0.2s ease;
 }
@@ -239,6 +224,7 @@ body {
 }
 
 .footer {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,7 +233,7 @@ body {
           align-items: center;
   border-top: 1px dashed #393939;
   padding: 10px 0;
-  font-family: 'Avenir Next';
+  font-family: 'Avenir Next Cyr';
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -267,7 +253,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 100px;
+  gap: 150px;
 }
 
 .next__page {
@@ -296,14 +282,93 @@ body {
   transition: all .2s ease;
 }
 
-.next__page:hover path {
-  fill: #FFEA00;
-}
-
 .rslogo {
   width: 100px;
 }
 
+.git .gitlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
 .git:hover {
   color: #FFEA00;
+}
+
+.about__title {
+  font-family: 'Kaushan Script';
+  font-size: 140px;
+  line-height: 108.4%;
+  color: rgba(255, 255, 255, 0.1);
+  margin-top: -80px;
+  text-align: center;
+}
+
+.about__text {
+  font-family: 'Avenir Next Cyr';
+  margin: 40px 0 20px;
+  text-align: center;
+  line-height: 168.4%;
+  letter-spacing: 0.06em;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+.text__about {
+  color: #FFEA00;
+  font-weight: 700;
+}
+
+.about__subtitle {
+  font-family: 'Kaushan Script';
+  font-size: 40px;
+  padding: 40px 0 20px;
+}
+
+.about__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.block__img {
+  width: 50px;
+}
+
+.text__block {
+  font-size: 12px;
+  color: #4f4f4f;
+}
+
+.prev__page {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+  text-align: end;
+  padding-left: 20px;
+}
+
+.prev__page:before {
+  content: '';
+  padding-left: 30px;
+  background: url(../assets/svg/arrow-left.svg) no-repeat left;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.prev__page:hover:before {
+  content: '';
+  padding-left: 40px;
+  background: url(../assets/svg/arrow-left.svg) no-repeat left;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
 }

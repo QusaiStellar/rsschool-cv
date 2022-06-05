@@ -1,16 +1,10 @@
-.personal {
-   height: 100%;
-   width: 100%;
-   position: relative;
-}
+
 .background__img{
    position: absolute;
-   width: 500px;
+   width: 550px;
    bottom: 0;
    right: 0;
    z-index: -1;
-}
-.content {
 }
 .personal__title {
    font-family: 'Kaushan Script';
@@ -36,9 +30,7 @@
 .prsonal__nav {
    padding-bottom: 80px;
 }
-.personal__items {
-   
-}
+
 .personal__item {
    padding-bottom: 16px;
    
@@ -69,7 +61,8 @@
 
    }
 }
-.contacts {
+
+.info__blocks {
    display: flex;
    gap: 100px  ;
    padding-bottom: 20px;
@@ -78,17 +71,6 @@
    display: flex;
    flex-direction: column;
    transform: all 0.2s ease;
-
-   &:hover {
-      .block__title {
-         color: #FFFFFF;
-         transform: all 0.2s ease;
-      } 
-      .block__text {
-         color: $secondary-color;
-         transform: all 0.2s ease;  
-      }
-   }
 }
 .block__title {
    font-size: 9px;
@@ -98,7 +80,6 @@
    text-transform: uppercase;
    color: $secondary-color;
    transform: all 0.2 ease;
-   
 }
 .block__text {
    align-items: center;
@@ -107,14 +88,14 @@
    letter-spacing: 0.03em;
    color: #FFFFFF;
    transform: all 0.2 ease;
-   
 }
 .footer {
+   position: relative;
    display: flex;
    align-items: center;
    border-top: 1px dashed #393939;
    padding: 10px 0;
-   font-family: 'Avenir Next';
+   font-family: 'Avenir Next Cyr';
    font-size: 14px;
    line-height: 16px;
    letter-spacing: 0.03em;
@@ -125,7 +106,7 @@
    flex: 1 1 auto;
    justify-content: center;
    align-items: center;
-   gap: 100px;
+   gap: 150px;
 }
 .next__page {
    flex: 0 0 150px;
@@ -143,18 +124,19 @@
       background: url(../assets/svg/arrow-right.svg) no-repeat right;
       transition: all .2s ease;
    }
-   &:hover path {
-      fill: $secondary-color;
-   }
 
 }
 .rslogo {
    width: 100px;
 }
-.year {
-}
 .git {
+   .gitlink {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+   }
    &:hover {
       color: $secondary-color;
    }
 }
+
