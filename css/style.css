@@ -377,6 +377,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
+  padding-bottom: 20px;
 }
 
 .skills__items {
@@ -428,13 +429,13 @@ body {
   border: #FFEA00 thin solid;
   padding: 10px;
   border-radius: 5px;
-  -webkit-transform: all 0.2s ease;
-          transform: all 0.2s ease;
+  -webkit-transform: 0.4s ease-out;
+          transform: 0.4s ease-out;
 }
 
 .project__link:hover {
   background-color: #FFEA00;
   color: black;
-  -webkit-transform: all 0.2s ease;
-          transform: all 0.2s ease;
+  -webkit-transform: 0.4s ease-in;
+          transform: 0.4s ease-in;
 }
