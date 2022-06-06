@@ -13,11 +13,11 @@
 <body>
    <div class="container">
       <main class="wrapper">
-         <h1 class="about__title" name="about">Code style</h1>
-         <section class="content__codepage">
+         <h1 class="about__title" id="about">Code style</h1>
+         <div class="content__codepage">
             <div class="left__side">
                <section class="skills">
-                  <h2 class="about__subtitle" name="skills">Skills</h2>
+                  <h2 class="about__subtitle" id="skills">Skills</h2>
                   <section class="skills__items">
                      <div class="skill__item">
                         <h3 class="block__title">HTML</h3>
@@ -62,7 +62,7 @@
                   </section>
                </section>
                <section class="code__example">
-                  <h2 class="about__subtitle" name="code_example">Code example</h2>
+                  <h2 class="about__subtitle" id="code_example">Code example</h2>
                   <pre><code>
 import React from 'react';
 import styles from './NotFound.module.css';
@@ -83,7 +83,7 @@ export default NotFound;
             </div>
 
             <section class="project">
-               <h2 class="about__subtitle" name="project">Recent project</h2>
+               <h2 class="about__subtitle" id="project">Recent project</h2>
                <p class="project__text">Development of a social network based on the course <span
                      class="highlight__yellow"><a target="_blank"
                         href="https://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">"React
@@ -96,16 +96,16 @@ export default NotFound;
                   class="project__link">View the code</a>
             </section>
 
-         </section>
+         </div>
          <footer class="footer">
             <a href="about.html" class="prev__page">About page</a>
-            <section class="links">
+            <div class="links">
                <a target="_blank" href="https://rs.school/js/"><img src="../assets/svg/RSschool.svg" alt="RSschool logo"
                      class="rslogo"></a>
                <p class="year">2022</p>
                <p class="git"><a class="gitlink" target="_blank" href="https://github.com/QusaiStellar"><img
                         src="../assets/svg/github.svg" alt="github logo"> QusaiStellar</a></p>
-            </section>
+            </div>
             <a href="../index.html" class="next__page">First page</a>
          </footer>
       </main>
