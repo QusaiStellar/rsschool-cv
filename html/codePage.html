@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="icon" href="../assets/logo.ico">
+   <title>Curriculum vitae</title>
+</head>
+
+<body>
+   <div class="container">
+      <main class="wrapper">
+         <h1 class="about__title" id="about">Code style</h1>
+         <div class="content__codepage">
+            <div class="left__side">
+               <section class="skills">
+                  <h2 class="about__subtitle" id="skills">Skills</h2>
+                  <section class="skills__items">
+                     <div class="skill__item">
+                        <h3 class="block__title">HTML</h3>
+                        <ul class="skill__scale">
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point grey__point"></li>
+                        </ul>
+                     </div>
+                     <div class="skill__item">
+                        <h3 class="block__title">CSS/SCSS</h3>
+                        <ul class="skill__scale">
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point grey__point"></li>
+                        </ul>
+                     </div>
+                     <div class="skill__item">
+                        <h3 class="block__title">JS</h3>
+                        <ul class="skill__scale">
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point grey__point"></li>
+                           <li class="skill__point grey__point"></li>
+                        </ul>
+                     </div>
+                     <div class="skill__item">
+                        <h3 class="block__title">React Redux</h3>
+                        <ul class="skill__scale">
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point"></li>
+                           <li class="skill__point grey__point"></li>
+                           <li class="skill__point grey__point"></li>
+                        </ul>
+                     </div>
+                  </section>
+               </section>
+               <section class="code__example">
+                  <h2 class="about__subtitle" id="code_example">Code example</h2>
+                  <pre><code>
+import React from 'react';
+import styles from './NotFound.module.css';
+                  
+class NotFound extends React.Component {
+   render = () => {
+      return (
+         &lt;div className="container"&gt;
+         &lt;div className={styles.not_found}>Page not found&lt;/div&gt;
+         &lt;/div&gt;
+      );
+   };
+};
+
+export default NotFound;
+               </code></pre>
+               </section>
+            </div>
+
+            <section class="project">
+               <h2 class="about__subtitle" id="project">Recent project</h2>
+               <p class="project__text">Development of a social network based on the course <span
+                     class="highlight__yellow"><a target="_blank"
+                        href="https://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">"React
+                        JS - the way of the
+                        samurai 1.0"</a></span></p>
+               <p class="project__text text__warning">Not completed to the end</p>
+               <img class="project__img" src="../assets/img/emmy.png" alt="emmy project">
+               <a target="_blank"
+                  href="https://github.com/QusaiStellar/Incubator/tree/main/Project/01-first-project/my-app"
+                  class="project__link">View the code</a>
+            </section>
+
+         </div>
+         <footer class="footer">
+            <a href="about.html" class="prev__page">About page</a>
+            <div class="links">
+               <a target="_blank" href="https://rs.school/js/"><img src="../assets/svg/RSschool.svg" alt="RSschool logo"
+                     class="rslogo"></a>
+               <p class="year">2022</p>
+               <p class="git"><a class="gitlink" target="_blank" href="https://github.com/QusaiStellar"><img
+                        src="../assets/svg/github.svg" alt="github logo"> QusaiStellar</a></p>
+            </div>
+            <a href="../index.html" class="next__page">First page</a>
+         </footer>
+      </main>
+   </div>
+</body>
+
+</html>
