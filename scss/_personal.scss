@@ -1,4 +1,3 @@
-
 .background__img{
    position: absolute;
    width: 550px;
@@ -6,44 +5,48 @@
    right: 0;
    z-index: -1;
 }
+
 .personal__title {
+   padding: 100px 0 15px;
+   width: 180px;  
    font-family: 'Kaushan Script';
    font-style: normal;
-   font-weight: 400;
    font-size: 60px;
-   line-height: 108.4%;
-   width: 180px;  
-   color: $secondary-color;
-   padding: 100px 0 15px;
-}
-.personal__subtitle {
-   font-family: 'Fredoka One';
    font-weight: 400;
+   line-height: 108.4%;
+   color: $secondary-color;
+}
+
+.personal__subtitle {
+   padding-bottom: 60px;
+   font-family: 'Fredoka One';
+   font-style: normal;
    font-size: 16px;
    line-height: 19px;
+   font-weight: 400;
    letter-spacing: 0.12em;
    text-transform: uppercase;
-   font-style: normal;
    color: $gray-color;
-   padding-bottom: 60px;
 }
+
 .prsonal__nav {
    padding-bottom: 80px;
 }
 
 .personal__item {
    padding-bottom: 16px;
-   
-}
+   }
+
 .personal__link {
    font-family: 'Fredoka One';
-   font-weight: 400;
+   font-style: normal;
    font-size: 16px;
+   font-weight: 400;
    line-height: 19px;
    letter-spacing: 0.12em;
    text-transform: uppercase;
-   font-style: normal;
-   color: #FFFFFF;
+   color: #ffffff;
+
    &:before {
       content: '';
       position: absolute;
@@ -51,27 +54,28 @@
       height: 30px;
       width: 0px;
       border-bottom: solid  4px $secondary-color;
-      width: 0;
-      transition: all .2s ease;
-
+      transition: all 0.2s ease;
    }
+
    &:hover:before {
       width: 50px;
-      transition: all .2s ease;
-
+      transition: all 0.2s ease;
    }
+
 }
 
 .info__blocks {
    display: flex;
-   gap: 100px  ;
+   gap: 100px;
    padding-bottom: 20px;
 }
+
 .block {
    display: flex;
    flex-direction: column;
    transform: all 0.2s ease;
 }
+
 .block__title {
    font-size: 9px;
    line-height: 12px;
@@ -81,26 +85,29 @@
    color: $secondary-color;
    transform: all 0.2 ease;
 }
+
 .block__text {
    align-items: center;
    font-size: 12px;
    line-height: 16px;
    letter-spacing: 0.03em;
-   color: #FFFFFF;
+   color: #fff;
    transform: all 0.2 ease;
 }
+
 .footer {
    position: relative;
    display: flex;
    align-items: center;
-   border-top: 1px dashed #393939;
    padding: 10px 0;
    font-family: 'Avenir Next Cyr';
    font-size: 14px;
    line-height: 16px;
    letter-spacing: 0.03em;
-   color: #FFFFFF;
+   color: #fff;
+   border-top: 1px dashed #393939;
 }
+
 .links {
    display: flex;
    flex: 1 1 auto;
@@ -108,35 +115,43 @@
    align-items: center;
    gap: 150px;
 }
+
 .next__page {
    flex: 0 0 150px;
    align-items: flex-end;
    padding-right: 20px;
+
    &:after {
       content: '';
       padding-right: 30px;
-      background: url(../assets/svg/arrow-right.svg) no-repeat right;
+      background: url("../assets/svg/arrow-right.svg") no-repeat right;
       transition: all .2s ease;
    }
+
    &:hover:after {
       content: '';
       padding-right: 40px;
-      background: url(../assets/svg/arrow-right.svg) no-repeat right;
+      background: url("../assets/svg/arrow-right.svg") no-repeat right;
       transition: all .2s ease;
    }
 
 }
+
 .rslogo {
    width: 100px;
 }
+
 .git {
+
    .gitlink {
       display: flex;
       align-items: center;
       gap: 5px;
    }
+
    &:hover {
       color: $secondary-color;
    }
+
 }
 
