@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*font-family: 'Kaushan Script', cursive;*/
+/*font-family: 'Fredoka One', cursive;*/
+@font-face {
+  font-family: "Avenir Next Cyr";
+  src: url("../assets/fonts/AvenirNextCyr-Regular.ttf"), url("../assets/fonts/AvenirNextCyr-Regular.woff2") format("woff2"), url("../assets/fonts/AvenirNextCyr-Regular.woff") format("woff");
+}
+
+body {
+  background-color: #262626;
+  font-family: "Avenir Next Cyr";
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.background__img {
+  position: absolute;
+  width: 550px;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.personal__title {
+  padding: 100px 0 15px;
+  width: 180px;
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 108.4%;
+  color: #ffea00;
+}
+
+.personal__subtitle {
+  padding-bottom: 60px;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+
+.prsonal__nav {
+  padding-bottom: 80px;
+}
+
+.personal__item {
+  padding-bottom: 16px;
+}
+
+.personal__link {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.personal__link:before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  height: 30px;
+  width: 0px;
+  border-bottom: solid 4px #ffea00;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.personal__link:hover:before {
+  width: 50px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  padding-bottom: 20px;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: all 0.2s ease;
+          transform: all 0.2s ease;
+}
+
+.block__title {
+  font-size: 9px;
+  line-height: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffea00;
+  -webkit-transform: all 0.2 ease;
+          transform: all 0.2 ease;
+}
+
+.block__text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  -webkit-transform: all 0.2 ease;
+          transform: all 0.2 ease;
+}
+
+.footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+  font-family: 'Avenir Next Cyr';
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border-top: 1px dashed #393939;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 150px;
+}
+
+.next__page {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 20px;
+}
+
+.next__page:after {
+  content: '';
+  padding-right: 30px;
+  background: url("../assets/svg/arrow-right.svg") no-repeat right;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.next__page:hover:after {
+  content: '';
+  padding-right: 40px;
+  background: url("../assets/svg/arrow-right.svg") no-repeat right;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.rslogo {
+  width: 100px;
+}
+
+.git .gitlink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.git:hover {
+  color: #ffea00;
+}
+
+.about__title {
+  margin-top: -80px;
+  font-family: 'Kaushan Script';
+  font-size: 140px;
+  line-height: 108.4%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.about__text {
+  margin: 40px 0 20px;
+  font-family: 'Avenir Next Cyr';
+  font-size: 26px;
+  line-height: 168.4%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.highlight__yellow {
+  color: #ffea00;
+}
+
+.about__subtitle {
+  padding: 40px 0 20px;
+  font-family: 'Kaushan Script';
+  font-size: 40px;
+}
+
+.about__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.block__img {
+  width: 50px;
+}
+
+.text__block {
+  font-size: 12px;
+  color: #4f4f4f;
+}
+
+.prev__page {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+  padding-left: 20px;
+  text-align: end;
+}
+
+.prev__page:before {
+  content: '';
+  padding-left: 30px;
+  background: url(../assets/svg/arrow-left.svg) no-repeat left;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.prev__page:hover:before {
+  content: '';
+  padding-left: 40px;
+  background: url(../assets/svg/arrow-left.svg) no-repeat left;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.content__codepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.skills__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+  max-width: 400px;
+}
+
+.skill__scale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.skill__point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: thin solid #ffea00;
+  background-color: #ffea00;
+}
+
+.grey__point {
+  background-color: #262626;
+}
+
+.project__text {
+  padding: 10px 0;
+}
+
+.text__warning {
+  color: #ff0000;
+}
+
+.project__img {
+  width: 600px;
+  border-radius: 15px;
+}
+
+.project__link {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  border: #ffea00 thin solid;
+  border-radius: 5px;
+  -webkit-transform: 0.4s ease-out;
+          transform: 0.4s ease-out;
+}
+
+.project__link:hover {
+  background-color: #ffea00;
+  color: #000000;
+  -webkit-transform: 0.4s ease-in;
+          transform: 0.4s ease-in;
+}
