@@ -3,59 +3,57 @@
    gap: 30px;
    padding-bottom: 20px;
 }
-.left__side {
-}
-.skills {
-}
-.about__subtitle {
-}
+
 .skills__items {
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
    max-width: 400px;
 }
-.skill__item {
-}
+
 .skill__scale {
    display: flex;
    gap: 5px;
 }
+
 .skill__point {
-   border-radius: 50%;
    width: 10px;
    height: 10px;
+   border-radius: 50%;
    border: thin solid $secondary-color;
    background-color: $secondary-color;
 }
+
 .grey__point {
    background-color: $primary-color;
 }
-.code__example {
-}
-.project {
-}
+
 .project__text {
-padding: 10px 0;
+   padding: 10px 0;
 }
+
 .text__warning {
-   color: #FF0000;
+   color: #ff0000;
 }
+
 .project__img {
    width: 600px;
    border-radius: 15px;
 }
+
 .project__link {
    display: block;
    margin-top: 10px;
+   padding: 10px;
    text-align: center;
    border: $secondary-color thin solid;
-   padding: 10px;
    border-radius: 5px;
    transform:  0.4s ease-out;
+
       &:hover {
          background-color: $secondary-color;
-         color: black;
+         color: #000000;
          transform:  0.4s ease-in;
    }
+
 }

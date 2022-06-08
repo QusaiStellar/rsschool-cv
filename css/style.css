@@ -6,24 +6,32 @@
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -34,7 +42,9 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: inherit;
 }
 
@@ -42,7 +52,8 @@ input::-ms-clear {
   display: none;
 }
 
-a, button {
+a,
+button {
   cursor: pointer;
 }
 
@@ -51,7 +62,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
   color: inherit;
 }
@@ -68,7 +80,12 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -83,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background-color: #262626;
   font-family: "Avenir Next Cyr";
-  color: #fff;
+  color: #ffffff;
 }
 
 .container {
@@ -119,26 +136,26 @@ body {
 }
 
 .personal__title {
+  padding: 100px 0 15px;
+  width: 180px;
   font-family: 'Kaushan Script';
   font-style: normal;
-  font-weight: 400;
   font-size: 60px;
+  font-weight: 400;
   line-height: 108.4%;
-  width: 180px;
-  color: #FFEA00;
-  padding: 100px 0 15px;
+  color: #ffea00;
 }
 
 .personal__subtitle {
+  padding-bottom: 60px;
   font-family: 'Fredoka One';
-  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 19px;
+  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  font-style: normal;
   color: #4f4f4f;
-  padding-bottom: 60px;
 }
 
 .prsonal__nav {
@@ -151,13 +168,13 @@ body {
 
 .personal__link {
   font-family: 'Fredoka One';
-  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
+  font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  font-style: normal;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .personal__link:before {
@@ -166,16 +183,15 @@ body {
   left: -1px;
   height: 30px;
   width: 0px;
-  border-bottom: solid 4px #FFEA00;
-  width: 0;
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
+  border-bottom: solid 4px #ffea00;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .personal__link:hover:before {
   width: 50px;
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .info__blocks {
@@ -206,7 +222,7 @@ body {
           align-items: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #FFEA00;
+  color: #ffea00;
   -webkit-transform: all 0.2 ease;
           transform: all 0.2 ease;
 }
@@ -218,7 +234,7 @@ body {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   -webkit-transform: all 0.2 ease;
           transform: all 0.2 ease;
 }
@@ -231,13 +247,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-top: 1px dashed #393939;
   padding: 10px 0;
   font-family: 'Avenir Next Cyr';
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
+  border-top: 1px dashed #393939;
 }
 
 .links {
@@ -269,7 +285,7 @@ body {
 .next__page:after {
   content: '';
   padding-right: 30px;
-  background: url(../assets/svg/arrow-right.svg) no-repeat right;
+  background: url("../assets/svg/arrow-right.svg") no-repeat right;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
@@ -277,7 +293,7 @@ body {
 .next__page:hover:after {
   content: '';
   padding-right: 40px;
-  background: url(../assets/svg/arrow-right.svg) no-repeat right;
+  background: url("../assets/svg/arrow-right.svg") no-repeat right;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
@@ -297,36 +313,36 @@ body {
 }
 
 .git:hover {
-  color: #FFEA00;
+  color: #ffea00;
 }
 
 .about__title {
+  margin-top: -80px;
   font-family: 'Kaushan Script';
   font-size: 140px;
   line-height: 108.4%;
-  color: rgba(255, 255, 255, 0.1);
-  margin-top: -80px;
   text-align: center;
+  color: rgba(255, 255, 255, 0.1);
 }
 
 .about__text {
-  font-family: 'Avenir Next Cyr';
   margin: 40px 0 20px;
-  text-align: center;
+  font-family: 'Avenir Next Cyr';
+  font-size: 26px;
   line-height: 168.4%;
   letter-spacing: 0.06em;
-  font-size: 26px;
-  color: #FFFFFF;
+  text-align: center;
+  color: #ffffff;
 }
 
 .highlight__yellow {
-  color: #FFEA00;
+  color: #ffea00;
 }
 
 .about__subtitle {
+  padding: 40px 0 20px;
   font-family: 'Kaushan Script';
   font-size: 40px;
-  padding: 40px 0 20px;
 }
 
 .about__block {
@@ -352,24 +368,24 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 150px;
           flex: 0 0 150px;
-  text-align: end;
   padding-left: 20px;
+  text-align: end;
 }
 
 .prev__page:before {
   content: '';
   padding-left: 30px;
   background: url(../assets/svg/arrow-left.svg) no-repeat left;
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .prev__page:hover:before {
   content: '';
   padding-left: 40px;
   background: url(../assets/svg/arrow-left.svg) no-repeat left;
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .content__codepage {
@@ -398,11 +414,11 @@ body {
 }
 
 .skill__point {
-  border-radius: 50%;
   width: 10px;
   height: 10px;
-  border: thin solid #FFEA00;
-  background-color: #FFEA00;
+  border-radius: 50%;
+  border: thin solid #ffea00;
+  background-color: #ffea00;
 }
 
 .grey__point {
@@ -414,7 +430,7 @@ body {
 }
 
 .text__warning {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .project__img {
@@ -425,17 +441,17 @@ body {
 .project__link {
   display: block;
   margin-top: 10px;
-  text-align: center;
-  border: #FFEA00 thin solid;
   padding: 10px;
+  text-align: center;
+  border: #ffea00 thin solid;
   border-radius: 5px;
   -webkit-transform: 0.4s ease-out;
           transform: 0.4s ease-out;
 }
 
 .project__link:hover {
-  background-color: #FFEA00;
-  color: black;
+  background-color: #ffea00;
+  color: #000000;
   -webkit-transform: 0.4s ease-in;
           transform: 0.4s ease-in;
 }
